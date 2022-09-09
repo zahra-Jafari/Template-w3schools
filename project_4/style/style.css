@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Verdana, sans-serif;
+}
+.box{
+    width: 100%;
+    
+}
+.box1{
+    position: relative;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image{
+    width: 100%;
+    margin-bottom:10px ;
+}
+
+.borderbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #f1f1f1;
+    padding: 20px 24px;
+    border: 1px solid #f1f1f1;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.borderbox>h2{
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+nav{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+.list{
+    width: auto;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    float: left;
+}
+.list:hover{
+    background-color: #ccc;
+
+}
+.list:first-child:hover{
+    border-radius: 4px 0 0 4px;
+}
+.list:last-child:hover{
+    border-radius:0 4px 4px 0 ;
+}
+.box2{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.contact{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+.contact>h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 35px;
+}
+.bt{
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.send{
+    width: 100%;
+    font-size: 16px;
+    background-color: #616161;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.w3css{
+    color: black;
+}
+.w3css:hover{
+    color: #4caf50;
+}
